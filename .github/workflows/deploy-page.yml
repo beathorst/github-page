@@ -2,8 +2,7 @@ name: deploy-page
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   deploy:
