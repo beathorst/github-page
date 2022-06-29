@@ -1,0 +1,14 @@
+name: Deploy-Page
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Send greeting
+        run: echo "Hello ${{ github.event.inputs.name }}"
