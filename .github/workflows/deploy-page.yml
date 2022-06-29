@@ -11,5 +11,11 @@ jobs:
 
     steps:
 
-      - name: Send greeting
-        run: echo "Hello ${{ github.event.inputs.name }}"
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          GITHUB_TOKEN: ${{ secretes.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
+
+
