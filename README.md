@@ -1,5 +1,4 @@
-# github-page
+# static-page
 
 [![deploy-page](https://github.com/beathorst/github-pages/actions/workflows/deploy-page.yml/badge.svg)](https://github.com/beathorst/github-pages/actions/workflows/deploy-page.yml)
-
-## Test 123456
+[![pages-build-deployment](https://github.com/beathorst/github-pages/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/beathorst/github-pages/actions/workflows/pages/pages-build-deployment)
